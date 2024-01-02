@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'caros-black';
+    src: url(../fonts/caros/cretype\ \ Caros\ Black.otf);
+}
+
+@font-face {
+    font-family: 'caros-extra-bold';
+    src: url(../fonts/caros/cretype\ \ Caros\ ExtraBold.otf);
+}
+
+
+@font-face {
+    font-family: 'caros-medium';
+    src: url(../fonts/caros/cretype\ \ Caros\ Medium.otf);
+}
+
+#myCarousel {
+    width: 100%;
+}
+
+.bg-img {
+    position: absolute;
+    width: 100%;
+    z-index: -100;
+}
+
+#calendar {
+    padding-left: 70%;
+    padding-bottom: 100%;
+    width: 92%;
+    color: #fff;
+    opacity: 100%;
+    text-align: center;
+}
+
+.col {
+    font-size: 0.7rem;
+    background-color: #8181816c;
+}
+
+.day {
+    font-size: 0.8rem;
+	font-family: 'caros-extra-bold';
+	color: rgb(77, 77, 77);
+	background-color: rgb(255, 255, 255);
+    border: solid 3px #fff;
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-family: 'caros-black';
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 8% ;
+    border-radius: 50%;
+    background-color: #3f3f3f;
+}
+
+.carousel-control-prev-icon {
+    margin-top: -140%;
+    margin-left: 875%;
+}
+
+.carousel-control-next-icon {
+    margin-top: -140%;
+    margin-right: -50%;
+}
+
+.name-container {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
